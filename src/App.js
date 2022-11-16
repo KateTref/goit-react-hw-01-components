@@ -1,5 +1,7 @@
+import Statistics from './components/Statistics/Statistics';
 import Profile from './components/Profile/Profile';
 import user from './components/Profile/user';
+import data from './components/Statistics/data';
 
 export default function App() {
     return (
@@ -14,6 +16,8 @@ export default function App() {
         views = {user.stats.views}
         likes = {user.stats.likes}
         />
+        <Statistics title = "Upload stats" stats = {data}/>
+        
       </div>
         
       </>
