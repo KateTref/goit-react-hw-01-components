@@ -2,11 +2,30 @@
 .item {
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0px 0px 59px -20px white;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.48);
 }
 
 .item:not(:last-child){
     margin-bottom: 15px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.avatar {
+    margin-left: 10px;
 }
