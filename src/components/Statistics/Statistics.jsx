@@ -1,4 +1,4 @@
-import { StatisticsElem } from "StatisticsElem/StatisticsElem";
+import { StatisticsElem } from "components/StatisticsElem/StatisticsElem";
 import css from  './statistics.module.css';
 import PropTypes from 'prop-types';
 
