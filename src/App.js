@@ -1,7 +1,9 @@
 import Statistics from './components/Statistics/Statistics';
 import Profile from './components/Profile/Profile';
+import FriendsList from './components/FriendList/FriendList';
 import user from './components/Profile/user';
 import data from './components/Statistics/data';
+import friends from './components/FriendList/friends';
 
 export default function App() {
     return (
@@ -17,9 +19,9 @@ export default function App() {
         likes = {user.stats.likes}
         />
         <Statistics title = "Upload stats" stats = {data}/>
-        
+        <FriendsList friends = {friends}/>
       </div>
-        
+  
       </>
     );
   }
