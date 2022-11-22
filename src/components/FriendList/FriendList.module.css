@@ -1,6 +1,5 @@
 .friendList {
     display: block;
     max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto 50px auto;
 }
