@@ -2,12 +2,6 @@ import css from './FriendListItem.module.css';
 import PropTypes from 'prop-types';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
-  //   let stat = '';
-  //   if (isOnline) {
-  //     stat = 'online';
-  //   } else {
-  //     stat = 'offline';
-  //   }
   return (
     <li className={css.item}>
       <span className={isOnline ? css.online : css.offline}></span>
